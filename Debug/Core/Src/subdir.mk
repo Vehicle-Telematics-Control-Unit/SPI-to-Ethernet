@@ -13,6 +13,7 @@ E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/socket.c \
 ../Core/Src/sysmem.c \
 ../Core/Src/system_stm32f1xx.c \
 E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/W5500/w5500.c \
+../Core/Src/w5500_interface.c \
 E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/wizchip_conf.c 
 
 OBJS += \
@@ -24,6 +25,7 @@ OBJS += \
 ./Core/Src/sysmem.o \
 ./Core/Src/system_stm32f1xx.o \
 ./Core/Src/w5500.o \
+./Core/Src/w5500_interface.o \
 ./Core/Src/wizchip_conf.o 
 
 C_DEPS += \
@@ -35,6 +37,7 @@ C_DEPS += \
 ./Core/Src/sysmem.d \
 ./Core/Src/system_stm32f1xx.d \
 ./Core/Src/w5500.d \
+./Core/Src/w5500_interface.d \
 ./Core/Src/wizchip_conf.d 
 
 
@@ -51,7 +54,7 @@ Core/Src/wizchip_conf.o: E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/E
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/socket.d ./Core/Src/socket.o ./Core/Src/socket.su ./Core/Src/stm32f1xx_hal_msp.d ./Core/Src/stm32f1xx_hal_msp.o ./Core/Src/stm32f1xx_hal_msp.su ./Core/Src/stm32f1xx_it.d ./Core/Src/stm32f1xx_it.o ./Core/Src/stm32f1xx_it.su ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f1xx.d ./Core/Src/system_stm32f1xx.o ./Core/Src/system_stm32f1xx.su ./Core/Src/w5500.d ./Core/Src/w5500.o ./Core/Src/w5500.su ./Core/Src/wizchip_conf.d ./Core/Src/wizchip_conf.o ./Core/Src/wizchip_conf.su
+	-$(RM) ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/socket.d ./Core/Src/socket.o ./Core/Src/socket.su ./Core/Src/stm32f1xx_hal_msp.d ./Core/Src/stm32f1xx_hal_msp.o ./Core/Src/stm32f1xx_hal_msp.su ./Core/Src/stm32f1xx_it.d ./Core/Src/stm32f1xx_it.o ./Core/Src/stm32f1xx_it.su ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f1xx.d ./Core/Src/system_stm32f1xx.o ./Core/Src/system_stm32f1xx.su ./Core/Src/w5500.d ./Core/Src/w5500.o ./Core/Src/w5500.su ./Core/Src/w5500_interface.d ./Core/Src/w5500_interface.o ./Core/Src/w5500_interface.su ./Core/Src/wizchip_conf.d ./Core/Src/wizchip_conf.o ./Core/Src/wizchip_conf.su
 
 .PHONY: clean-Core-2f-Src
 
