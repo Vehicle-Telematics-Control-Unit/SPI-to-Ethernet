@@ -137,7 +137,7 @@ int main(void) {
 
 	/*in this section we will keep sending a greeting message*/
 
-	/*initializes socket with a port number and mode for instance port number of 5000 and udp mode in this sample*/
+	/*initializes socket with a port number and mode. for instance, a port number of 5000 and udp is used in this sample*/
 	if ((socket(socNum, Sn_MR_UDP, 5000, 0)) == socNum) {
  80001ac:	f897 0027 	ldrb.w	r0, [r7, #39]	; 0x27
  80001b0:	2300      	movs	r3, #0
