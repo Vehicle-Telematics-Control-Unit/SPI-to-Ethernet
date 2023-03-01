@@ -20,11 +20,11 @@ int main(void) {
 
 	/*in this section we will keep sending a greeting message*/
 
-	/*initializes socket with a port number and mode for instance port number of 5000 and udp mode in this sample*/
+	/*initializes socket with a port number and mode. for instance, a port number of 5000 and udp is used in this sample*/
 	if ((socket(socNum, Sn_MR_UDP, 5000, 0)) == socNum) {
 		while (1) {
 			Socket_sendUDP(socNum, greetingMSG, dstip, 5001);//sends message to a destination ip address and port
-			HAL_Delay(500);
+			//HAL_Delay(500);
 		}
 	close(socNum);//closes socket
 	}
