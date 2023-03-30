@@ -29,21 +29,4 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Core/Src/socket.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Grad%20Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/socket.c</locationURI>
-		</link>
-		<link>
-			<name>Core/Src/w5500.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Grad%20Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/W5500/w5500.c</locationURI>
-		</link>
-		<link>
-			<name>Core/Src/wizchip_conf.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Grad%20Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/wizchip_conf.c</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

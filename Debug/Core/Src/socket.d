@@ -1,10 +1,5 @@
-Core/Src/socket.o: \
- E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/socket.c \
- E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/socket.h \
- E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/wizchip_conf.h \
- E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/W5500/w5500.h \
- ../Core/Inc/wizchip_conf.h
-E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/socket.h:
-E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/wizchip_conf.h:
-E:/Grad\ Proj/SPI-to-Ethernet/ioLibrary_Driver-master/Ethernet/W5500/w5500.h:
+Core/Src/socket.o: ../Core/Src/socket.c ../Core/Inc/socket.h \
+ ../Core/Inc/wizchip_conf.h ../Core/Inc/w5500.h
+../Core/Inc/socket.h:
 ../Core/Inc/wizchip_conf.h:
+../Core/Inc/w5500.h:
