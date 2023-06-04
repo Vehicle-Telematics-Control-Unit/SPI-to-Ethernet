@@ -8,14 +8,14 @@ extern SPI_HandleTypeDef hspi1;
 /**
  * @brief function to set cs pin low to start transmission
  */
-void cs_sel() {
+static void cs_sel(void) {
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET); //CS LOW
 }
 
 /**
  * @brief function to set cs pin high to end transmission
  */
-void cs_desel() {
+static void cs_desel(void) {
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET); //CS HIGH
 }
 
